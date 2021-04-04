@@ -47,7 +47,6 @@ msgstr "Actie"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction
 #, fuzzy
-#| msgid "Action"
 msgid "Action Needed"
 msgstr "Actie"
 
@@ -81,6 +80,11 @@ msgid "Actions"
 msgstr "Acties"
 
 #. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_origin__active
+msgid "Active"
+msgstr ""
+
+#. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity__active
 msgid "Active?"
 msgstr "Actief?"
@@ -88,7 +92,6 @@ msgstr "Actief?"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_ids
 #, fuzzy
-#| msgid "Active?"
 msgid "Activities"
 msgstr "Actief?"
 
@@ -129,6 +132,11 @@ msgstr ""
 #. module: mgmtsystem_nonconformity
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
 msgid "Analysis Confirmation"
+msgstr ""
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_origin_form
+msgid "Archived"
 msgstr ""
 
 #. module: mgmtsystem_nonconformity
@@ -532,7 +540,6 @@ msgstr ""
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_ids
 #, fuzzy
-#| msgid "Unread Messages"
 msgid "Messages"
 msgstr "Ongelezen berichten"
 
@@ -634,7 +641,6 @@ msgstr ""
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_unread_counter
 #, fuzzy
-#| msgid "Unread Messages"
 msgid "Number of unread messages"
 msgstr "Ongelezen berichten"
 
@@ -857,7 +863,6 @@ msgstr "Ongelezen berichten"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_unread_counter
 #, fuzzy
-#| msgid "Unread Messages"
 msgid "Unread Messages Counter"
 msgstr "Ongelezen berichten"
 
@@ -874,7 +879,6 @@ msgstr "Gebruiker"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__website_message_ids
 #, fuzzy
-#| msgid "Unread Messages"
 msgid "Website Messages"
 msgstr "Ongelezen berichten"
 

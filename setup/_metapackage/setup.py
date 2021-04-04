@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo13-addon-document_page_environment_manual',
         'odoo13-addon-document_page_environmental_aspect',
+        'odoo13-addon-document_page_health_safety_manual',
         'odoo13-addon-document_page_procedure',
         'odoo13-addon-document_page_quality_manual',
         'odoo13-addon-document_page_work_instruction',
@@ -19,6 +20,7 @@ setuptools.setup(
         'odoo13-addon-mgmtsystem_claim',
         'odoo13-addon-mgmtsystem_hazard',
         'odoo13-addon-mgmtsystem_hazard_risk',
+        'odoo13-addon-mgmtsystem_info_security_manual',
         'odoo13-addon-mgmtsystem_manual',
         'odoo13-addon-mgmtsystem_nonconformity',
         'odoo13-addon-mgmtsystem_nonconformity_hr',
